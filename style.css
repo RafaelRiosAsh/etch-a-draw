@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+.main_div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.unChecked{
+    display: inline-block;
+    background-color: lightgrey;
+    width: 5px;
+    height: 5px;
+}
+/*.unChecked:hover {
+    background-color: red;
+}
